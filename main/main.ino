@@ -1,10 +1,10 @@
 #include <Servo.h>
 
-Servo myServo
+Servo myServo;
 
 void setup() {
   // put your setup code here, to run once:
-  
+  myServo.attach(9);
 }
 
 void loop() {
