@@ -9,5 +9,10 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  
+  myServo.write(0);
+  delay(500);
+  myServo.write(90);
+  delay(500);
+  myServo.write(190);
+  delay(500);
 }
